@@ -11,7 +11,7 @@ tests:
   dotnet:
     parameters:
       GitHubRepositoryName: quickstart-dotnet-serverless-cicd
-      GitHubBranchName: develop
+      GitHubBranchName: main
       GitHubOwner: aws-quickstart
       GitHubOAuthToken: github-token
       QSS3BucketName: $[taskcat_autobucket]
